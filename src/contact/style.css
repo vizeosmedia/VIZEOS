@@ -1,0 +1,1473 @@
+@import url(https://db.onlinewebfonts.com/c/72112afab388987941068c3f7a741a53?family=Mark+Pro+Heavy);
+
+@font-face {
+  font-family: 'Futura Hv BT';
+  src: url('https://cdn.jsdelivr.net/gh/kelsanford/portfolio@master/Fonts/futura/Futura%20Heavy%20BT.ttf')
+      format('truetype'),
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  src: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/FONTS/Brandon_bld.otf')
+      format('opentype'),
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/FONTS/Brandon_reg.otf')
+      format('opentype'),
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/FONTS/Brandon_light.otf')
+      format('opentype'),
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.desktop-logo {
+  width: 125px!important;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav ul li {
+  justify-content: center;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Futura Hv BT';
+}
+
+
+.hero {
+  text-align: left;
+  padding: 140px 100px 150px;
+  background-image: url("https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/CAKES/Header%20Cake%20v1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  top: 60px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #fff;
+  font-family: 'Futura Hv BT';
+}
+
+.hero p {
+  margin-bottom: 1em;
+  color: #fff;
+  line-height: 1.8em;
+  font-size: 1.2em;
+  font-family: 'Brandon Grotesque Light';
+}
+
+.order-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Brandon Grotesque Bold';
+}
+
+/* CATEGORY SECTION */
+
+.category-section {
+  text-align: center;
+  margin-top: 120px;
+  position: relative;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.categories {
+  flex: 1 1 20%; /* ensures that the div takes up at least 20% of the flex container */
+  max-width: 25%; /* each box will take up to 25% of the container width */
+  margin: 10px;
+  text-align: center;
+}
+
+.categories img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.category-section h1 {
+  font-family: 'Futura Hv BT';
+}
+
+.categories h3 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-family: 'Futura Hv BT';
+}
+
+/* SLIDER SECTION */
+
+.slider-section {
+  text-align: right;
+  padding: 140px 100px 150px;
+  background-image: url("https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/CAKES/Signature%20Cake%20v1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider-section h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+  color: #fff;
+  font-family: 'Futura Hv BT';
+}
+
+.slider-section p {
+  margin-bottom: 1em;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  font-family: 'Brandon Grotesque Light';
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 10px 35px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Brandon Grotesque Bold';
+}
+
+/* BEST SELLERS SECTION */
+
+.best-sellers-section {
+  text-align: left;
+  margin-top: 75px;
+  margin-left: 40px;
+}
+
+.best-sellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  gap: 20px;
+  scrollbar-width: 40%;
+}
+
+.best-sellers {
+  flex: 1 1 12%; /* ensures that the div takes up at least 20% of the flex container */
+  max-width: 18%; /* each box will take up to 25% of the container width */
+  text-align: center;
+}
+
+.best-sellers img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.best-sellers-section h1 {
+  font-family: 'Futura Hv BT';
+}
+
+.best-sellers h3 {
+  margin-top: 15px;
+  margin-bottom: 0em;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: 'Futura Hv BT';
+}
+
+.best-sellers p {
+  color: grey;
+  text-align: left;
+  font-family: 'Futura Hv BT';
+}
+
+.sr-image-holder {
+  padding-bottom: 0px!important;
+}
+
+.sr-products {
+  padding: 0px!important;
+}
+
+.sr-item-inner {
+  padding: 0px;
+}
+
+.sr-item-info {
+  padding: 10px 10px 20px!important;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* OCCASIONS SECTION */
+
+.occasions-section {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #ddf0ec;
+}
+
+.guest-count-section {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: white;
+}
+
+.occasions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.occasions {
+  flex: 1 1 12%; /* ensures that the div takes up at least 20% of the flex container */
+  max-width: 25%; /* each box will take up to 25% of the container width */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.occasions img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.occasions-section h1 {
+  font-family: 'Futura Hv BT';
+}
+
+.occasions h3 {
+  margin-top: 15px;
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: 'Futura Hv BT';
+}
+
+.sr-cart .sr-logo-link {
+  display: none!important;
+}
+
+.sr-footer-logo {
+  display: none;
+}
+
+/* MEGA MENU STYLING */
+
+.mega-menu-container {
+  font-family: 'Futura Hv BT';
+  font-size: 15px;
+  color: black;
+  z-index: 2147483641;
+}
+
+.mega-menu-container,
+.mega-menu-container * {
+  box-sizing: border-box;
+}
+
+.mega-menu-container a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.mega-menu-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mega-menu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: white;
+  box-shadow: 0 4px 30px -7px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.mega-menu > ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+
+.mega-menu-container h4 {
+  margin: 8px 0;
+}
+
+.mega-menu-container .menu-title {
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.mega-menu-container .menu-title-highlight {
+  padding-left: 5px;
+  font-weight: bold;
+  color: black;
+  background-color: #8eebd9;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.mega-menu .menu-title {
+  position: relative;
+}
+
+.mega-menu .menu-title::after {
+  height: 0;
+  width: 0;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 200ms ease;
+}
+
+/* .has-submenu::after {
+  content: "+";
+  margin-left: 2px;
+} */
+
+.mega-menu .submenu-container {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  margin-right: 20px;
+  top: 50px;
+  width: 100%;
+  transform: translateY(10px);
+  transition: all 300ms ease;
+}
+
+.mega-menu .has-submenu:hover .submenu-container {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.submenu .col-3 img {
+  width: 100px;
+}
+
+.submenu .col-3 {
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid rgba(2, 48, 71, 0.2);
+}
+
+.submenu {
+  background: white;
+  padding: 30px 24px;
+  margin-top: 30px;
+}
+
+.submenu .col-3 ul li {
+  padding: 10;
+  padding-left: 12px;
+  margin: 12px 20;
+}
+
+.submenu h3 {
+  margin: 10px 0;
+}
+
+.submenu.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  text-align: center;
+}
+
+.submenu.grid svg {
+  height: 42px;
+}
+
+.submenu.grid .submenu-column {
+  padding: 15px;
+}
+
+.submenu.grid .submenu-column:hover {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.submenu.grid .submenu-column:hover svg {
+  color: red;
+}
+
+.menu-image {
+  width: 200px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background: black;
+  width: 100vw;
+  box-sizing: border-box;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.footer1 {
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.footer2 {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'Mark Pro Heavy';
+}
+
+.footer h2 {
+  color: white;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'Mark Pro Heavy';
+}
+
+.footer-subtitle {
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 20px;
+  font-family: 'Merriweather';
+  justify-content: center;
+}
+
+.button-row {
+  justify-content: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.contact-button {
+  background-color: white;
+  width: 170px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Mark Pro Heavy';
+  padding: 18px;
+  text-align: center;
+  justify-content: center !important;
+}
+
+.section-contact {
+  min-height: 30vh;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.contact-container {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  background-color: white;
+  width: 80vw !important;
+}
+
+.form-group {
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-element {
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background-color: #f3f3f3;
+    cursor: text;
+    font-family: 'Mark Pro Heavy';
+    font-size: 22px;
+    color: black;
+  }
+
+  .form-element::placeholder {
+    font-family: 'Mark Pro Heavy';
+    font-size: 22px;
+  }
+
+  .form-element:focus {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    transition: 0.4s;
+    cursor: text;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 300px;
+    cursor: text;
+  }
+}
+
+.submit-group {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+input[type='submit'],
+input[type='button'] {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  padding: 16px 20px;
+  background-color: #84d1bf;
+  color: white;
+  font-family: 'Mark Pro Heavy';
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  padding: 16px 20px;
+  background-color: #84d1bf;
+  color: white;
+  font-family: 'Mark Pro Heavy';
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+input:hover {
+  background-color: white;
+  color: #84d1bf;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: 'Mark Pro Heavy';
+}
+
+.social-icons {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  padding-right: 15px;
+}
+
+.contact-page {
+  text-align: left;
+  padding-top: 20px;
+  top: 60px;
+  position: relative;
+  
+}
+
+.header #my-text {
+  font-family: 'Futura Hv BT';
+  text-align: center!important;
+}
+
+.contact-page .header {
+  text-align: center;
+}
+
+.line {
+  text-align: center;
+}
+
+.sr-element .sr-cart-trigger {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0)!important;
+}
+
+.sr-element .sr-cart-trigger:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, .17)!important;
+}
+
+.sr-btn-group {
+  max-width: 150px!important;
+}
+
+.sr-product-quantity {
+  width: 25%!important;
+}
+
+.sr-cart .sr-product-quantity {
+  width: 100%!important;
+}
+
+.subtitle-header {
+  text-align: left;
+  margin-top: 0;
+  font-size: 0.75em;
+  font-family: 'Futura Hv BT'!important;
+}
+
+.mega-menu-mobile {
+  display: none;
+}
+
+.tasting-section {
+  background-size: cover;
+  padding: 30px 120px 40px;
+  background-position: center;
+  text-align: left;
+  background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Tasting%20Header%201.jpg');
+}
+
+.tasting-section h1 {
+  text-align: left;
+  font-size: 3em;
+  color: black;
+}
+
+.tasting-section .shop-button {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: #8eebd9;
+  color: black;
+  border-radius: 5px;
+}
+
+.tasting-section p {
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: black
+}
+
+.tasting-section .shop-button {
+    padding: 8px 20px;
+  }
+
+  .deposit-section {
+    background-size: cover;
+    padding: 30px 120px 40px;
+    background-position: top;
+    text-align: left;
+    background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Deposit%20-%202.png');
+  }
+
+  .deposit-section h1 {
+    text-align: left;
+    font-size: 3em;
+    color: white;
+  }
+
+  .deposit-section .shop-button {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .deposit-section p {
+    text-align: left;
+    line-height: 2em;
+    font-size: 1em;
+    color: white
+  }
+
+  .deposit-section .shop-button {
+      padding: 8px 20px;
+    }
+
+    .gallery-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 40px 20px 0 20px;
+    }
+
+    .gallery-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .gallery-section .gallery-box .gallery-column {
+      display: flex;
+      flex-direction: column;
+      width: 32.5%;
+    }
+
+    .gallery-section .gallery-box .gallery-column img {
+      width: 100%;
+      margin-bottom: 12px;
+      border-radius: 5px;
+    }
+
+    .gallery-section .title {
+      padding-top: 80px;
+    }
+
+    .about-us-text {
+      text-align: left;
+      padding-right: 180px;
+      padding-left: 180px;
+      padding-bottom: 50px;
+      font-family: 'Brandon Grotesque Regular';
+    }
+
+    .about-us-desktop-image {
+      background-size: cover;
+      width: 40%;
+      padding: 700px 120px 40px;
+      margin-bottom: 30px;
+      background-position: top;
+      text-align: left;
+      background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Juries%20-%20Desktop%20v1.jpg');
+    }
+
+
+/* MOBILE BROWSER STYLING */
+
+@media (max-width: 768px) {
+
+  .about-us-text {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  .about-us-desktop-image {
+    background-size: cover;
+    padding: 530px 120px 40px;
+    margin-bottom: 0;
+    background-position: top;
+    text-align: left;
+    background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Juries%20-%20Desktop%20v1.jpg');
+  }
+
+  .gallery-box {
+    flex-direction: column;
+  }
+
+  .gallery-section .gallery-box .gallery-column {
+    width: 100%;
+  }
+
+  .gallery-section .title {
+    padding-top: 50px;
+  }
+
+  .gallery-section {
+    margin: 30px 20px 0 15px;
+  }
+
+  .hero {
+    text-align: left;
+    padding: 30px 20px 40px;
+    margin-top: 20px;
+    background-image: url("https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/CAKES/Header%20Cake%20MOBILE%20v3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    top: 60px;
+    position: relative;
+  }
+
+  .hero h1 {
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .hero p {
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+
+  .order-button {
+    padding: 8px 20px;
+  }
+
+  .category-section {
+    margin-top: 100px;
+  }
+
+  .title h1 {
+    font-size: 1.3em;
+  }
+
+  .category-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-bottom: 10px;
+  }
+
+  .categories {
+    max-width: 100%;
+  }
+
+  .categories h3 {
+    font-size: 0.9em;
+  }
+
+
+  .slider-section {
+    background-size: contain;
+    padding: 30px 20px 40px;
+    background-position: top;
+    text-align: right;
+    background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/CAKES/Signature%20Cake%20MOBILE%20v3.jpg');
+  }
+
+  .slider-section h1 {
+    text-align: right;
+    font-size: 1.7em;
+  }
+
+  .slider-section .shop-button {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .slider-section p {
+    text-align: right;
+    line-height: 1em;
+    font-size: 1em;
+  }
+
+  .slider-section .shop-button {
+      padding: 8px 20px;
+    }
+
+  .best-sellers-section {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .best-sellers-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-top: 0;
+    width: 100%;
+    scrollbar-width: none;
+  }
+
+  .best-sellers {
+    max-width: 40%;
+    padding-right: 50px;
+  }
+
+  .occasions-section {
+    padding-left: 15px;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .guest-count-section {
+    padding-left: 15px;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .tasting-section {
+    background-size: cover;
+    padding: 30px 20px 40px;
+    background-position: center;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Tasting%20Header%20Mobile%202.jpg');
+  }
+
+  .tasting-section h1 {
+    text-align: left;
+    font-size: 1.7em;
+    font-family: 'Futura Hv BT';
+  }
+
+  .tasting-section .shop-button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .tasting-section p {
+    text-align: left;
+    line-height: 1em;
+    font-size: 1em;
+    font-family: 'Brandon Grotesque Light';
+  }
+
+  .tasting-section .shop-button {
+      padding: 8px 20px;
+    }
+
+    .deposit-section {
+      background-size: cover;
+      padding: 30px 20px 40px;
+      background-position: center center;
+      text-align: left;
+      background-repeat: no-repeat;
+      background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/ButtrcreamCakes@main/IMAGES/Deposit%20Header%20Mobile%202.jpg');
+    }
+  
+    .deposit-section h1 {
+      text-align: left;
+      font-size: 1.7em;
+      font-family: 'Futura Hv BT';
+    }
+  
+    .deposit-section .shop-button {
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+  
+    .deposit-section p {
+      text-align: left;
+      line-height: 1em;
+      font-size: 1em;
+      font-family: 'Brandon Grotesque Light';
+    }
+  
+    .deposit-section .shop-button {
+        padding: 8px 20px;
+      }
+
+  .occasions-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    scrollbar-width: 40px;
+    text-align: center;
+    height: 100%;
+  }
+
+  .occasions {
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-right: 5px;
+    box-sizing: inherit;
+    text-align: center;
+  }
+
+  .occasions img {
+    width: auto;
+    max-width: 150px;
+  }
+
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+  .footer1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .footer-subtitle {
+    font-family: 'Arial';
+    text-align: center;
+  }
+
+  .social-icons {
+    padding-top: 10px;
+  }
+
+  .socials {
+    padding-right: 10px;
+  }
+
+  .footer h2 {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+  }
+
+  .footer2 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .copyright {
+    color: white;
+    padding: 10px;
+  }
+
+  .category-section .sr-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .category-section {
+    padding: 10px;
+  }
+
+  .sr-modal-content .sr-modal-action-container {
+    display: none!important;
+  }
+
+  .sr-filters-wrap .sr-container {
+    display: grid!important;
+    margin-bottom: 30px;
+  }
+
+  .sr-filter .sr-per-page-wrapper {
+    width: 100%;
+  }
+
+  .mega-menu {
+    display: none;
+  }
+
+  .mega-menu-mobile {
+    display: block;
+  }
+
+  .menu-header .icons .menu-icon, 
+  .menu-header .icons .close-icon {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    padding-top: 10px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 200ms ease;
+  }
+
+  .menu-header .icons .menu-icon.active,
+  .menu-header .icons .close-icon.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .menu-header .icons {
+    position: relative;
+    left: 0;
+  }
+
+  .menu-icon {
+    z-index: 111111;
+    left: 0;
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 40px -7px rgba (0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: white;
+    top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    max-width: 100%;
+    z-index: 11;
+    text-align: center;
+    height: 80px;
+  }
+
+  .mega-menu-mobile .submenu-container {
+    height: 0;
+    overflow: hidden;
+    transition: all 500ms ease;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .has-submenu {
+    position: relative;
+    text-align: center;
+  }
+
+  .has-submenu::after {
+    position: absolute;
+    top: 10px;
+    right: 108px;
+  }
+
+  .submenu.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mega-menu-mobile > ul > li {
+    border-bottom: 1px solid #dedede;
+    padding: 15px 5px 15px 10px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .mobile-link {
+    width: 50%;
+  }
+
+  .menu-image {
+    width: 140px;
+  }
+
+  .mega-menu-mobile > ul {
+    display: grid;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    top: 70px;
+    background-color: white;
+    max-width: 100%;
+    width: 100%;
+    transform: translateX(-130%);
+    transition: all 300ms ease;
+    max-height: calc(100vh - 46px);
+    overflow-y: auto;
+    overflow-x: none;
+    z-index: 44;
+  }
+
+  .submenu {
+    margin-top: 0;
+  }
+
+  nav ul li {
+    margin-right: 0px;
+  }
+
+  .mega-menu-mobile > ul.active {
+    transform: translateX(0);
+  }
+
+  .logo-column {
+    flex: 0 0 33.33333%;
+    text-align: center;
+  }
+
+  .logo-column-spacer {
+    flex: 0 0 33.33333%;
+    opacity: 0;
+  }
+
+  .icons {
+    flex: 0 0 33.33333%;
+    text-align: center;
+  }
+
+  .sr-element .sr-cart-trigger {
+    background-color: transparent!important;
+  }
+
+  .footer-subtitle {
+    line-height: 1.7em;
+  }
+
+  .desktop-logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .swiper-slide {
+    opacity: 1;
+    display: block;
+  }
+
+}
+
+
+/* END OF MOBILE STYLING */
+
+/* SWIPER JS STYLING */
+
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-content: center;
+}
+
+.swiper-wrapper {
+  width: 100%!important;
+  max-width: 100%!important;
+  max-height: 100vh!important;
+  min-height: 0!important;
+  min-width: 0!important;
+  display: flex;
+}
+
+.swiper-pagination {
+  position: relative!important;
+}
+
+
+
+.swiper-button-next {
+  top: var(--swiper-navigation-top-offset, 50.5%)!important;
+  color: #e35831!important;
+  -webkit-text-fill-color: rgba(227, 88, 49, 1)!important;
+  align-items: normal!important;
+  display: none!important;
+}
+
+.swiper-button-next::before {
+  font-size: 20px!important;
+}
+
+.swiper-button-prev {
+  top: var(--swiper-navigation-top-offset, 50.5%)!important;
+  color: #e35831!important;
+  -webkit-text-fill-color: rgba(227, 88, 49, 1)!important;
+  display: none!important;
+}
+
+.swiper-pagination {
+  margin-top: 30px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #e35831!important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e35831!important;
+  -webkit-text-fill-color: rgba(227, 88, 49, 1)!important;
+}
+
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+}
+
+.nav-buttons {
+  width: 100%;
+  display: flex;
+  text-align: left;
+}
+
+.nav-columns {
+  flex: 33%;
+}
+
+.swiper-slide {
+  opacity: 1;
+  display: block;
+}
+
+.swiper-slide.swiper-slide-active,.swiper-slide.swiper-slide-next,.swiper-slide.swiper-slide-prev{
+  opacity: 1;
+      visibility: visible;
+  }
+
+  .testimonial-container {
+    background-color: #ddf0ec;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .testimonial-column {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-between;
+    margin-top: 25px;
+
+  }
+  
+  .testimonial {
+    text-align: left;
+  }
+  
+  .quotation-image {
+    width: 65px;
+    padding-top: 20px;
+    opacity: .9;
+  }
+  
+  .quotation {
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  
+  .testimonial-text {
+    display: inline-block;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.9;
+    color: #173955;
+    -webkit-text-fill-color: rgba(23, 57, 85, 1);
+    -webkit-opacity: 1;
+    opacity: 1;
+  }
+  
+  .testimonial-text-light {
+    display: inline-block;
+    font-family: 'Merriweather';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #173955;
+    -webkit-text-fill-color: rgba(23, 57, 85, 1);
+    -webkit-opacity: .7;
+    opacity: .7;
+  }
+  
+  .testimonial-image {
+    width: 150px;
+  }
+
+  .no-style-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .no-style {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+
+  .ml-5px {
+    width: 15px;
+  }
+
+
+
+
+  
