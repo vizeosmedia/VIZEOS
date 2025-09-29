@@ -16,8 +16,8 @@ export default defineConfig({
       input: {
         main: resolve(root, 'index.html'),
         contact: resolve(root, 'contact', 'index.html'),
-        mtg_collector_booster_box_display_case: resolve(root, 'mtg-collector-booster-box-display-case', 'index.html'),
-        mtg_play_booster_box_display_case: resolve(root, 'mtg-play-booster-box-display-case', 'index.html'),
+        gallery: resolve(root, 'gallery', 'index.html'),
+        about_us: resolve(root, 'about_us', 'index.html'),
       },
     },
   },
