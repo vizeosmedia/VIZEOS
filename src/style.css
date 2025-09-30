@@ -36,7 +36,7 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: black;
   overflow-x: hidden;
 }
 
@@ -2135,6 +2135,7 @@ input:hover {
             grid-template-rows: repeat(2, 1fr);
             gap: 2px;
             height: 600px;
+            background-color: black;
         }
 
         .video-item {
@@ -2204,22 +2205,22 @@ input:hover {
 
         /* Specific background images for each video */
         .video-item:nth-child(1) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Aerial view of empty parking lot with automated vehicles and green landscaping&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb1.jpg');
         }
         .video-item:nth-child(2) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Autonomous vehicle driving on rural road with golden hour lighting and trees&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb2.jpg');
         }
         .video-item:nth-child(3) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Professional man in dark suit standing in modern office with glass windows&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb3.jpg');
         }
         .video-item:nth-child(4) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Aerial landscape view of testing facility with roads and water features&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb4.jpg');
         }
         .video-item:nth-child(5) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Young man with beard and glasses standing next to white vehicle in garage&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb5.jpg');
         }
         .video-item:nth-child(6) {
-            background-image: url('https://placeholder-image-service.onrender.com/image/460x300?prompt=Professional kitchen scene with chefs in white uniforms and older chef in black&id=652d18c4-2718-4520-8c0e-41fc28adac5f&customer_id=cus_T98eETh2O2ty2z');
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb6.jpg');
         }
 
         /* Responsive design */
