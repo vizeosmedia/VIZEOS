@@ -65,3 +65,39 @@ document.getElementById('contact-form').addEventListener('submit', function(even
       alert(JSON.stringify(err));
     });
 });
+
+
+
+        // JavaScript to handle video playback
+        document.querySelectorAll('.video-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const vimeoId = this.dataset.vimeoId;
+                const modal = document.getElementById('videoModal');
+                const iframe = document.getElementById('vimeoFrame');
+                
+                // Replace with actual Vimeo embed URL
+                iframe.src = `https://player.vimeo.com/video/${vimeoId}?autoplay=1`;
+                modal.classList.add('active');
+            });
+        });
+        function closeVideo() {
+            const modal = document.getElementById('videoModal');
+            const iframe = document.getElementById('vimeoFrame');
+            
+            modal.classList.remove('active');
+            iframe.src = '';
+        }
+        // Close modal when clicking outside the video
+        document.getElementById('videoModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeVideo();
+            }
+        });
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeVideo();
+            }
+        });
+
+

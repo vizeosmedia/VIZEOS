@@ -112,6 +112,10 @@ nav ul li a {
   width: 500px;
 }
 
+.vizeos-logo-mobile {
+  width: 80%;
+}
+
 .vimeo-player-container {
 width: 100%;
   display: grid;
@@ -673,7 +677,6 @@ width: 100%;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #ec1e22;
   color: white;
 }
 
@@ -907,7 +910,7 @@ form {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-  background-color: white;
+  background-color: black;
   width: 80vw !important;
 }
 
@@ -1385,7 +1388,6 @@ input:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 90px;
-  background-color: #ec1e22;
   color: white;
 }
 
@@ -2132,9 +2134,9 @@ input:hover {
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
             gap: 2px;
-            height: 600px;
+            height: 900px;
             background-color: black;
         }
 
@@ -2222,6 +2224,16 @@ input:hover {
         .video-item:nth-child(6) {
             background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb6.jpg');
         }
+        .video-item:nth-child(7) {
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb7.jpg');
+        }
+        .video-item:nth-child(8) {
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb8.jpg');
+        }
+        .video-item:nth-child(9) {
+            background-image: url('https://cdn.jsdelivr.net/gh/vizeosmedia/VIZEOS@main/IMAGES/thumb9.jpg');
+        }
+
 
         /* Responsive design */
         @media (max-width: 1024px) {

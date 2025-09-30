@@ -17,7 +17,6 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         contact: resolve(root, 'contact', 'index.html'),
         gallery: resolve(root, 'gallery', 'index.html'),
-        about_us: resolve(root, 'about-us', 'index.html'),
       },
     },
   },
