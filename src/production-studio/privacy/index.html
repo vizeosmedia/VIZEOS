@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="How Vizeos Media Production Studio uses and stores Google and YouTube data for private video uploads." />
+    <link rel="canonical" href="https://www.vizeosmedia.com/production-studio/privacy/" />
+    <link rel="stylesheet" href="../studio.css" />
+    <title>Production Studio Privacy Policy | Vizeos Media</title>
+  </head>
+  <body>
+    <header class="site-header"><div class="shell">
+      <a class="brand" href="/">Vizeos Media</a>
+      <nav aria-label="Production Studio"><a href="/production-studio/">Overview</a><a aria-current="page" href="/production-studio/privacy/">Privacy</a><a href="/production-studio/terms/">Terms</a></nav>
+    </div></header>
+    <main>
+      <div class="hero"><div class="shell"><p class="eyebrow">Production Studio</p><h1>Privacy policy</h1><p class="lede">This policy covers the YouTube connection in Vizeos Media's Production Studio desktop app.</p><p class="meta">Last updated September 24, 2026</p></div></div>
+      <div class="shell content">
+        <section>
+          <h2>What the app accesses</h2>
+          <p>When you choose to connect a YouTube channel, Google asks you to grant YouTube upload and read-only access. The app reads the selected channel's ID and name to confirm its identity. It uses upload access to deliver videos only for the connected Production Studio workspace. The app does not request your Google password or access to your Gmail or Drive. It does not read subscriber lists, comments, or analytics.</p>
+        </section>
+        <section>
+          <h2>How the app uses and shares data</h2>
+          <p>Production Studio sends a newly completed, verified MP4, its title, and an optional description to YouTube as a private upload. It checks the resulting video's channel and private visibility and stores the video ID and upload status for your review. It does not make a video public or automatically upload exports completed before you connected the channel.</p>
+          <p>The app sends this information to Google and YouTube to perform the upload. Vizeos Media does not sell Google user data, use it for advertising, or use it to train AI models. YouTube's own handling of uploaded videos is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+        </section>
+        <section>
+          <h2>Where information is stored</h2>
+          <p>The Google authorization grant and resumable upload session are stored in the coordinator Mac's Keychain. The local Production Studio workspace stores the channel name and ID, the private-upload preference, and upload job records such as the title, local export path, status, and resulting video link. Video files remain in the owner's production storage until sent to YouTube. The app uses the authorization only on the coordinator Mac, not on render-farm workers.</p>
+        </section>
+        <section>
+          <h2>Disconnecting and deletion</h2>
+          <p>You can turn off automatic private uploads or disconnect a channel in Production Studio's Settings. Disconnecting removes that workspace's saved authorization grant from the local Keychain and stops new uploads. It does not delete a video already uploaded to YouTube or erase historical local upload records. You can also <a href="https://myaccount.google.com/connections">revoke the app's Google access</a> and manage uploaded videos in YouTube Studio. For questions or a request concerning local records, contact <a href="mailto:hello@vizeosmedia.com">hello@vizeosmedia.com</a>.</p>
+        </section>
+        <section>
+          <h2>Changes and contact</h2>
+          <p>We will update this page when the Production Studio YouTube connection's data practices change. For privacy questions, email <a href="mailto:hello@vizeosmedia.com">hello@vizeosmedia.com</a>.</p>
+          <div class="links"><a href="/production-studio/">App overview</a><a href="/production-studio/terms/">Terms of service</a></div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="shell"><p>© 2026 Vizeos Media</p><nav aria-label="Footer"><a href="/">Vizeos Media</a><a href="/production-studio/">Production Studio</a><a href="/production-studio/terms/">Terms</a></nav></div></footer>
+  </body>
+</html>
